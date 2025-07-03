@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: url-shortener
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
